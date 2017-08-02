@@ -1,4 +1,4 @@
-2016-01-20 19:03发布于oschina<br/>
+2016-01-20 19:03发布于oschina，h t t p : / / g i t .oschina.net/vigiles/UScaleView<br/>
 <br/>
 
 一．渐变色刻度值View控件
