@@ -1,3 +1,5 @@
+2016-01-20 19:03发布于oschina<br/>
+<br/>
 一．渐变色刻度值View控件
 ===================================
  ![github](gradualcolorscaleview/gradualcolorscaleview.gif "渐变色控件")
