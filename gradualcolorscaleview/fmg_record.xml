@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cuiweiyou="http://schemas.android.com/apk/res/com.cuiweiyou"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fmg_bkg"
+    android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal" >
+
+		<com.cuiweiyou.UScaleView
+			android:id="@+id/usv"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			cuiweiyou:colorLineNode="#ff9900"
+			cuiweiyou:colorLineNormal="#0099ff"
+			cuiweiyou:sizeLongOfLineNode="50"
+			cuiweiyou:sizeLongOfLineNormal="30"
+			cuiweiyou:sizeOfText="9dp"
+			cuiweiyou:sizeWidthOfLine="1"
+			cuiweiyou:spaceBetweenLine="50"
+			cuiweiyou:touchEnable="false"
+			cuiweiyou:typeFanOrLineOrCylinder="0"
+			cuiweiyou:typeHorizontalOrVertical="1"
+			cuiweiyou:valueMaxScale="100"
+			cuiweiyou:valueMinScale="0" />
+	</LinearLayout>
+
+</LinearLayout>

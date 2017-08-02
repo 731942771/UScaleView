@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- 自定义类的属性 -->
+    <!-- 自定义属性集合 name=自定义名称 -->
+    <declare-styleable name="UScaleViewAttrs">
+        <!-- 使用模式，1:水平，0:垂直 -->
+        <attr name="typeHorizontalOrVertical" format="integer" />
+        <!-- 展示模式，2:表盘，1:居中线，0:圆柱 -->
+        <attr name="typeFanOrLineOrCylinder" format="integer" />
+        
+        <!-- 最大刻度 -->
+        <attr name="valueMaxScale" format="integer" />
+        <!-- 最小刻度 -->
+        <attr name="valueMinScale" format="integer" />
+        
+        <!-- 默认刻度线颜色 -->
+        <attr name="colorLineNormal" format="color" />
+        <!-- 节点刻度线颜色 -->
+        <attr name="colorLineNode" format="color" />
+        
+        <!-- 节点文本字号 -->
+        <attr name="sizeOfText" format="dimension" />
+        
+        <!-- 刻度线宽度，画笔笔触宽度 -->
+        <attr name="sizeWidthOfLine" format="integer" />
+        <!-- 默认刻度线长度 -->
+        <attr name="sizeLongOfLineNormal" format="integer" />
+        <!-- 节点刻度线长度 -->
+        <attr name="sizeLongOfLineNode" format="integer" />
+        <!-- 刻度线间隔 -->
+        <attr name="spaceBetweenLine" format="integer" />
+        
+        <!-- 是否可以接收touch事件 -->
+        <attr name="touchEnable" format="boolean" />
+    </declare-styleable>
+</resources>
